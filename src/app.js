@@ -21,7 +21,8 @@ Promise.all(fetchData)
   };
   return data;
 })
-.then(result => initData = result);
+.then(result => initData = result)
+.catch(err => console.log(err));
 
 function getUsers(){
   let header = [ 'id', 'name', 'username', 'email', 'phone']
