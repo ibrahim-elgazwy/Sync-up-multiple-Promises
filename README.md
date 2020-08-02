@@ -19,7 +19,7 @@ $ npm run build
 To serve in the browser  - Runs webpack-dev-server
 
 ```sh
-$ npm start
+$ npm run start
 ```
 
 Babel Webpack Starter
